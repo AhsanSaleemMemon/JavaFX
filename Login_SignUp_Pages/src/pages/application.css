@@ -1,0 +1,48 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+#logInBtn1{
+	-fx-background-color : linear-gradient(to left,#8E2DE2, #4A00E0);
+}
+
+
+#signUpBtn{
+	-fx-background-color : linear-gradient(to left,#8E2DE2, #4A00E0);
+}
+
+#signUpBtn1{
+
+	-fx-background-color : linear-gradient(to left,#8E2DE2, #4A00E0);
+}
+
+#logInBtn2{
+
+	-fx-background-color : linear-gradient(to left,#8E2DE2, #4A00E0);
+}
+
+#btnBook{
+	-fx-background-color: linear-gradient(to left, #8360c3,#2ebf91)
+}
+
+
+
+#welcomeID{
+
+	-fx-background-color : linear-gradient(#FF512F, #DD2476);
+}
+
+#anchorA{
+	-fx-background-color : linear-gradient(#642B73, #C6426E);
+}
+
+#venue1Btn{
+	-fx-background-color : linear-gradient(to left,#FC5C7D, #6A82FB);
+}
+
+#venue2Btn{
+	-fx-background-color : linear-gradient(to left,#FC5C7D, #6A82FB);
+}
+
+#anchorA2{
+	-fx-background-color : linear-gradient(#642B73, #C6426E);
+}

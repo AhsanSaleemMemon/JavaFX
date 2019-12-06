@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchor" prefHeight="514.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pages.LogInController">
+   <children>
+      <Pane layoutX="457.0" layoutY="93.0" prefHeight="384.0" prefWidth="350.0">
+         <children>
+            <TextField fx:id="username" layoutX="70.0" layoutY="48.0" prefHeight="30.0" prefWidth="227.0" promptText="Username">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="password" layoutX="70.0" layoutY="100.0" prefHeight="30.0" prefWidth="227.0" promptText="Password">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="logInBtn1" layoutX="70.0" layoutY="163.0" mnemonicParsing="false" onAction="#logInPressed" prefHeight="52.0" prefWidth="227.0" style="-fx-background-radius: 100;" stylesheets="@application.css" text="LOG IN" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="signUpBtn" layoutX="70.0" layoutY="279.0" mnemonicParsing="false" onAction="#signUpPressed" prefHeight="52.0" prefWidth="227.0" style="-fx-background-radius: 100;" stylesheets="@application.css" text="SIGN UP" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Line endX="-25.0" layoutX="183.0" layoutY="250.0" startX="-93.0" />
+            <Label layoutX="168.0" layoutY="240.0" text="Or">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Line endX="-25.0" layoutX="293.0" layoutY="249.0" startX="-100.0" />
+         </children>
+      </Pane>
+      <AnchorPane fx:id="welcomeID" layoutY="-1.0" prefHeight="566.0" prefWidth="415.0" style="-fx-background-color: #000000;">
+         <children>
+            <ImageView fitHeight="338.0" fitWidth="323.0" layoutX="46.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/7YQo.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="313.0" fitWidth="313.0" layoutX="51.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/eading.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="473.0" layoutY="66.0" prefHeight="27.0" prefWidth="350.0" text="Welcome, Please Log into your account">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
